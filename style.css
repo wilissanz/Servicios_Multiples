@@ -620,3 +620,38 @@ footer {
 .call-button .fa-phone {
   margin-right: 10px; /* Espacio entre el ícono y el texto */
 }
+/* tamaño de imagenes */
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.testimonial-img-bg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.testimonial-carlos {
+    background-image: url('./images/carlos-rodriguez.webp');
+}
+
+.testimonial-maria {
+    background-image: url('./images/maria-gonzalez.webp');
+}
+
+.testimonial-juan {
+    background-image: url('./images/juan-perez.webp');
+}
+
+.testimonial-name {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
